@@ -1,6 +1,6 @@
 /**
  * ExcelSiteMap
- * Make Web Site Map Excel File and Update title/meta/ogp tags.
+ * Make a Excel File of Web Site Map and Update title/meta/ogp tags.
  *
  * @author		Nobuhiro Takahashi
  * @version		0.0.1
