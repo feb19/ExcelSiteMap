@@ -26,3 +26,26 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------------------------------------
+
+HTML ファイルが入った親フォルダを指定すると、
+子フォルダも含めてそのフォルダに含まれる HTML ファイルのメタタグ
+（title/keywords/description/ogp）を一斉に走査して、
+一覧性のあるエクセルファイルを書き出すことができます。
+
+エクセルファイルのキーワードやタイトルを編集してアプリに戻すと、
+再度ディレクトリを選択して、そのディレクトリに含まれ、
+相対パスのカラムに該当する HTML を更新します。
+
+現時点では、元々エクセルの空欄であったところにテキストを入れても
+戻したときにメタタグが追加はされません。
+
+
+【注意】
+
+* ラテン語系の特殊文字の変換がうまくいかなそうです。
+* 吐き出される Excel ファイルは古いフォーマットのため、Numbers や OpenOffice では開けません。
+* MS Office で編集したファイル (xls) は Numbers などで読み込むことが可能になるようです。
+* テストが不十分なため、ご利用には十分注意してください。
+* EUC エンコードでのテストが特に不十分です。
